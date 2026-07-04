@@ -1,4 +1,8 @@
-# Auto-deploy on push to main via Tailscale + SSH.
+# Deploy to production via Tailscale + SSH.
+#
+# NOTE: This repository is archived. Automatic deploy on push has been
+# disabled; this workflow now only runs when triggered manually from the
+# Actions tab (workflow_dispatch).
 #
 # Uses a GitHub-hosted runner that joins the tailnet to reach the
 # production host, then SSHes as the deploy user to run each step.
@@ -21,8 +25,7 @@
 name: Deploy
 
 on:
-  push:
-    branches: [main]
+  workflow_dispatch:
 
 jobs:
   deploy:

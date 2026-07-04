@@ -1,5 +1,8 @@
 # Pixel Hawk
 
+> [!NOTE]
+> **This project is archived and no longer maintained.** I've stopped playing WPlace, so I'm no longer developing or running Pixel Hawk. The code remains available for anyone who wants to read it, fork it, or run their own instance. If your fork significantly expands functionality, I encourage you to let me know so I link back to it.
+
 A Discord bot that watches over your artwork on [WPlace](https://wplace.live/). It polls the canvas, compares it to your project images, and tells you how your art is doing: completion percentage, progress, and who's griefing you.
 
 Multiple people in your server can track their own projects at the same time.
